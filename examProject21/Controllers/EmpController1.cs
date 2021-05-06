@@ -20,9 +20,16 @@ namespace examProject21.Controllers
 
         public IActionResult Index()
         {
-            var results = _cc.Sheet1.ToList();
-
-            return View(results);
+            try
+            {
+                var results = _cc.Sheet1.ToList();
+                return View(results);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            return View();
         }
     }
 }

@@ -1,18 +1,22 @@
 ﻿<Properties StartupConfiguration="{FEF061E7-23AF-4F12-BFB5-89C42853D4E8}|Default">
   <MonoDevelop.Ide.ItemProperties.examProject21 PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="examProject21/Controllers/EmpController1.cs">
+    <Files>
+      <File FileName="examProject21/Controllers/EmpController1.cs" Line="25" Column="18" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="examProject21" expanded="True">
             <Node name="examProject21" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="EmpController1.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
