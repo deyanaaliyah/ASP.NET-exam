@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using examProject21.Models;
+using Microsoft.EntityFrameworkCore;
 namespace examProject21
-    using Microsoft.EntityFrameworkCore;
-{
+{ 
     public class Startup
     {
         public Startup(IConfiguration configuration)
