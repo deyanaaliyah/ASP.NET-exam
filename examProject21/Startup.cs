@@ -52,7 +52,7 @@ namespace examProject21
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=EmpController1}/{action=Index}/{id?}");
             });
         }
     }
