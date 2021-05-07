@@ -29,6 +29,7 @@ namespace examProject21.Controllers
             {
                 Console.WriteLine(e);
             }
+           
             return View();
         }
     }

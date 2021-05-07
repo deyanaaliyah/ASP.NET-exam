@@ -33,7 +33,10 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@try
+{
+    foreach (var item in Model)
+    {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.id)
@@ -55,6 +58,11 @@
             </td>
          
         </tr>
+    }
 }
+catch (Exception e)
+            {
+                <p>not working</p>
+            }
     </tbody>
 </table>

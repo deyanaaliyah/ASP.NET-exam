@@ -8,12 +8,12 @@ namespace examProject21.Models
 {
     public class ExamClass
     {
-        [Key]
+        
         public int id { get; set; }
-        public int date { get; set; }
-        public int energy { get; set; }
+        public string date { get; set; }
+        public float energy { get; set; }
         public string unit { get; set; }
-        public int water { get; set; }
+        public float water { get; set; }
         public string mUnit { get; set; }
 
     }

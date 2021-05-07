@@ -8,7 +8,7 @@ namespace examProject21.Models
 {
     public class ConnectionStringClass:DbContext
     {
-        public ConnectionStringClass(DbContextOptions<ConnectionStringClass> options)//:(options)
+        public ConnectionStringClass(DbContextOptions<ConnectionStringClass> options) : base (options)
         {
 
         }
